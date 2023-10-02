@@ -71,10 +71,10 @@
 
         nav {
             bindings = <
-&bt BT_PRV      &bt BT_NXT    &none         &none         &bt BT_CLR      &kp LBKT                &kp RIGHT_BRACKET      &kp PAGE_UP  &kp UP_ARROW    &kp PAGE_DOWN    &none  &kp BACKSLASH
-&kp LCTRL       &kp LEFT_ALT  &kp LEFT_GUI  &kp LCTRL     &kp LEFT_SHIFT  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp LEFT     &kp DOWN_ARROW  &kp RIGHT_ARROW  &none  &none
-&kp LEFT_SHIFT  &none         &none         &kp K_BACK    &kp K_FORWARD   &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp HOME     &kp END         &none            &none  &kp ESCAPE
-                                            &kp LEFT_GUI  &none           &kp DELETE              &none                  &none        &none
+&bt BT_PRV      &bt BT_NXT    &none         &none          &bt BT_CLR        &kp LBKT                &kp RIGHT_BRACKET      &kp PAGE_UP  &kp UP_ARROW    &kp PAGE_DOWN    &none  &kp BACKSLASH
+&kp LCTRL       &kp LEFT_ALT  &kp LEFT_GUI  &kp LCTRL      &kp LEFT_SHIFT    &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp LEFT     &kp DOWN_ARROW  &kp RIGHT_ARROW  &none  &none
+&kp LEFT_SHIFT  &none         &none         &kp C_AC_BACK  &kp C_AC_FORWARD  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp HOME     &kp END         &none            &none  &kp ESCAPE
+                                            &kp LEFT_GUI   &none             &kp DELETE              &none                  &none        &none
             >;
         };
     };
