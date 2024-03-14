@@ -32,15 +32,15 @@
             bindings = <
 &none      &kp F1        &kp F2        &kp F3  &kp F4     &kp F5    &kp F6     &kp F7     &kp F8         &kp F9   &kp F10  &kp F11
 &kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp N3  &kp N4     &kp N5    &kp N6     &kp N7     &kp N8         &kp N9   &kp N0   &kp F12
-&none      &none         &none         &none   &none      &none     &none      &none      &none          &kp DOT  &none    &none
+&none      &none         &none         &none   &none      &none     &none      &none      &none          &kp DOT  &none    &kp LEFT_SHIFT
                                        &none   &kp SPACE  &none     &kp ENTER  &kp SPACE  &kp BACKSPACE
             >;
         };
 
         Symbols {
             bindings = <
-&trans          &trans           &trans  &trans            &trans          &kp LEFT_BRACE          &kp RIGHT_BRACE        &trans           &trans             &trans                &trans                 &trans
-&kp TILDE       &kp EXCLAMATION  &kp AT  &kp HASH          &kp DOLLAR      &kp PERCENT             &kp CARET              &kp AMPERSAND    &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
+&trans          &trans           &trans  &trans            &trans          &none                   &none                  &trans           &trans             &trans                &trans                 &kp BACKSLASH
+&kp TILDE       &kp EXCLAMATION  &kp AT  &kp HASH          &kp DOLLAR      &kp PERCENT             &kp CARET              &kp AMPERSAND    &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
 &kp LEFT_SHIFT  &trans           &trans  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &trans                &trans                 &trans
                                          &kp ENTER         &kp SPACE       &kp BACKSPACE           &trans                 &kp SPACE        &trans
             >;
@@ -48,10 +48,10 @@
 
         nav {
             bindings = <
-&bt BT_PRV      &bt BT_NXT    &none         &none          &bt BT_CLR        &kp LBKT                &kp RIGHT_BRACKET      &kp PAGE_UP  &kp UP_ARROW    &kp PAGE_DOWN    &none  &kp BACKSLASH
-&kp LCTRL       &kp LEFT_ALT  &kp LEFT_GUI  &kp LCTRL      &kp LEFT_SHIFT    &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp LEFT     &kp DOWN_ARROW  &kp RIGHT_ARROW  &none  &none
-&kp LEFT_SHIFT  &none         &none         &kp C_AC_BACK  &kp C_AC_FORWARD  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp HOME     &kp END         &none            &none  &kp ESCAPE
-                                            &kp LEFT_GUI   &kp LEFT_ALT      &kp DELETE              &none                  &none        &none
+&bt BT_PRV      &bt BT_NXT    &none         &none          &bt BT_CLR        &none         &none  &kp PAGE_UP  &kp UP_ARROW    &kp PAGE_DOWN    &none  &none
+&kp LCTRL       &kp LEFT_ALT  &kp LEFT_GUI  &kp LCTRL      &kp LEFT_SHIFT    &none         &none  &kp LEFT     &kp DOWN_ARROW  &kp RIGHT_ARROW  &none  &none
+&kp LEFT_SHIFT  &none         &none         &kp C_AC_BACK  &kp C_AC_FORWARD  &none         &none  &kp HOME     &kp END         &none            &none  &none
+                                            &kp LEFT_GUI   &kp LEFT_ALT      &kp DELETE    &none  &none        &none
             >;
         };
     };
