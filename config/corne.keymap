@@ -48,10 +48,10 @@
 
         nav {
             bindings = <
-&bt BT_PRV      &bt BT_NXT    &none         &none          &bt BT_CLR        &none         &none  &kp PAGE_UP  &kp UP_ARROW    &kp PAGE_DOWN    &none  &none
-&kp LCTRL       &kp LEFT_ALT  &kp LEFT_GUI  &kp LCTRL      &kp LEFT_SHIFT    &none         &none  &kp LEFT     &kp DOWN_ARROW  &kp RIGHT_ARROW  &none  &none
-&kp LEFT_SHIFT  &none         &none         &kp C_AC_BACK  &kp C_AC_FORWARD  &none         &none  &kp HOME     &kp END         &none            &none  &none
-                                            &kp LEFT_GUI   &mt LCTRL SPACE   &kp DELETE    &none  &none        &none
+&bt BT_PRV      &bt BT_NXT    &none         &none          &bt BT_CLR        &none            &none          &kp PAGE_UP  &kp UP_ARROW    &kp PAGE_DOWN    &none       &none
+&kp LCTRL       &kp LEFT_ALT  &kp LEFT_GUI  &kp LCTRL      &kp LEFT_SHIFT    &none            &kp BACKSPACE  &kp LEFT     &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DELETE  &none
+&kp LEFT_SHIFT  &none         &none         &kp C_AC_BACK  &kp C_AC_FORWARD  &none            &none          &kp HOME     &kp END         &none            &none       &none
+                                            &kp LEFT_GUI   &kp SPACE         &kp BACKSPACE    &none          &none        &kp DELETE
             >;
         };
     };
