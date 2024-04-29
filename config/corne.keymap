@@ -24,7 +24,16 @@
 &kp TAB    &kp Q  &kp W  &kp E     &kp R            &kp T              &kp Y        &kp U        &kp I             &kp O    &kp P          &kp MINUS
 &kp LCTRL  &kp A  &kp S  &kp D     &kp F            &kp G              &kp H        &kp J        &kp K             &kp L    &kp SEMICOLON  &kp SQT
 &kp LSHFT  &kp Z  &kp X  &kp C     &kp V            &kp B              &kp N        &kp M        &kp COMMA         &kp DOT  &kp FSLH       &mt RSHIFT EQUAL
-                         &kp LGUI  &mt LCTRL SPACE  &lt 1 BACKSPACE    &lt 2 ENTER  &lt 3 SPACE  &mt LEFT_ALT ESC
+                         &kp LGUI  &mt LCTRL SPACE  &lt 2 BACKSPACE    &lt 3 ENTER  &lt 1 SPACE  &mt LEFT_ALT ESC
+            >;
+        };
+
+        nav {
+            bindings = <
+&bt BT_PRV      &bt BT_NXT    &none         &none          &bt BT_CLR        &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp PAGE_UP  &kp UP_ARROW    &kp PAGE_DOWN    &none       &none
+&kp LCTRL       &kp LEFT_ALT  &kp LEFT_GUI  &kp LCTRL      &kp LEFT_SHIFT    &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp LEFT     &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DELETE  &none
+&kp LEFT_SHIFT  &none         &none         &kp C_AC_BACK  &kp C_AC_FORWARD  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp HOME     &kp END         &none            &none       &none
+                                            &kp LEFT_GUI   &kp SPACE         &kp BACKSPACE           &none                  &none        &kp DELETE
             >;
         };
 
@@ -43,15 +52,6 @@
 &kp TILDE  &kp EXCLAMATION  &kp AT  &kp HASH          &kp DOLLAR      &kp PERCENT             &kp CARET              &kp AMPERSAND    &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
 &none      &none            &none   &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &none                 &none                  &none
                                     &kp ENTER         &kp SPACE       &kp BACKSPACE           &none                  &kp SPACE        &none
-            >;
-        };
-
-        nav {
-            bindings = <
-&bt BT_PRV      &bt BT_NXT    &none         &none          &bt BT_CLR        &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp PAGE_UP  &kp UP_ARROW    &kp PAGE_DOWN    &none       &none
-&kp LCTRL       &kp LEFT_ALT  &kp LEFT_GUI  &kp LCTRL      &kp LEFT_SHIFT    &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp LEFT     &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DELETE  &none
-&kp LEFT_SHIFT  &none         &none         &kp C_AC_BACK  &kp C_AC_FORWARD  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp HOME     &kp END         &none            &none       &none
-                                            &kp LEFT_GUI   &kp SPACE         &kp BACKSPACE           &none                  &none        &kp DELETE
             >;
         };
     };
