@@ -31,7 +31,7 @@
         nav {
             bindings = <
 &bt BT_PRV      &bt BT_NXT    &none         &none          &none             &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp PAGE_UP  &kp UP_ARROW    &kp PAGE_DOWN    &none       &bt BT_CLR
-&kp LCTRL       &kp LEFT_ALT  &kp LEFT_GUI  &kp LCTRL      &kp LEFT_SHIFT    &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp LEFT     &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DELETE  &none
+&kp LCTRL       &kp LEFT_ALT  &kp LEFT_GUI  &kp LCTRL      &kp LEFT_SHIFT    &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp LEFT     &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DELETE  &kp DELETE
 &kp LEFT_SHIFT  &none         &none         &kp C_AC_BACK  &kp C_AC_FORWARD  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp HOME     &kp END         &none            &none       &none
                                             &kp LEFT_GUI   &kp SPACE         &kp BACKSPACE           &none                  &none        &kp DELETE
             >;
